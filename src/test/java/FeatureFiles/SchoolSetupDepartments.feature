@@ -32,8 +32,9 @@ Feature: SchoolSetup Functionality 2
 
     And Click on the save element in Dialog
       | edit_saveButton |
+
     Then Success message should be display
-    
+
     And Wait 1500 sn
 
     And Click on the element in the DialogContent for deleting
@@ -43,5 +44,5 @@ Feature: SchoolSetup Functionality 2
     Then Success message should be display
 
     Examples:
-      | nameInputInfo   | codeInputInfo | e_nameInputInfo | e_codeInputInfo |
-      | A-Mobile Engineer | WBS            | A-MOBILE Enginner | MBS              |
+      | nameInputInfo     | codeInputInfo | e_nameInputInfo   | e_codeInputInfo |
+      | A-Mobile Engineer | WBS           | A-MOBILE Enginner | MBS             |
